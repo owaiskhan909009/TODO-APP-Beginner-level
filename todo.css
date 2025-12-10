@@ -1,0 +1,89 @@
+/* Main Page Setup */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  padding: 40px;
+  background: linear-gradient(
+  to right,
+  #d6a293,
+  #e7c7d9,
+  #cdb8e4,
+  #c9ccd1,
+  #c7e2e0,
+  #b6caaa,
+  #dfd5a2
+);
+}
+
+
+/* Heading */
+#main-heading {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+/* Input Row */
+.gridcontanor {
+  display: grid;
+  grid-template-columns: 1fr 200px 120px;
+  gap: 15px;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.gridcontanor input {
+  padding: 12px;
+  font-size: 16px;
+}
+
+.gridcontanor button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.gridcontanor button:hover {
+  opacity: 0.8;
+}
+
+/* Todo List Container */
+.todo-contanor {
+  width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 150px 100px;
+  gap: 15px;
+  align-items: center;
+  font-size: 18px;
+  border: 2px solid rgb(12, 12, 9);
+  border-radius: 6px;
+  padding: 12px;
+}
+
+/* Delete Button Style */
+.todo-contanor button {
+  background-color: #b30000;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.todo-contanor button:hover {
+  opacity: 0.8;
+}
+
+input{
+    border-radius: 12px;
+    border: none;
+    
+}
